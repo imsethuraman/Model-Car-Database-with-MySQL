@@ -46,6 +46,8 @@ The database includes the following tables:
 **👥 Customer Analysis**
 
 ```sql
+SELECT COUNT(DISTINCT customerNumber) AS Total_Customer_Base
+FROM Customers;
 SELECT DISTINCT country FROM Customers;
 
 **📦 Order Analysis**
@@ -93,8 +95,3 @@ Enable data-driven decision making
 ⭐ If you found this useful
 
 Give this repo a ⭐ and connect with me!
-
-
-
-SELECT COUNT(DISTINCT customerNumber) AS Total_Customer_Base
-FROM Customers;
